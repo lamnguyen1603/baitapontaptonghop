@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//6. Đếm số phần tử chia hết cho 6
+let a = [];
+let totaL = 0;
+let c = +prompt('nhap so phan tu cua mang')
+for( let i = 0 ;i<c;i++){
+    let n = +prompt('nhap phan tu mang thu'+(i+1))
+    a.push(n)
+}
+for( let j = 0;j<a.length;j++){
+    if(a[j]%6==0){
+       totaL= j
+    }
+}document.write('phan tu chia het cho 6 la'+totaL+'<br>')
+</script>
+</body>
+</html>

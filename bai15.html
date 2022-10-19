@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  //9. Tìm max của các số lẻ trong mảng
+  let arr =[4,5,64,6,7,28,34]
+  let max = arr[0];
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max&&arr[i]%2!==0) {
+      max = arr[i];
+    }
+  }
+  alert("max cua cac so le la : " + max );
+</script>
+</body>
+</html>
