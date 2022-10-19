@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 4. Tính tổng của các phần tử
+    let a = [];
+    let totaL = 0;
+    let c = +prompt('nhap so phan tu cua mang')
+    for( let i = 0 ;i<c;i++){
+        let n = +prompt('nhap phan tu mang thu'+(i+1))
+        a.push(n)
+    }
+    for( let j = 0;j<a.length;j++){
+        totaL = totaL +a[j]
+    }
+    document.write('tong la'+totaL)
+</script>
+</body>
+</html>

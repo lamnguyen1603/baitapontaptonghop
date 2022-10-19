@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //. Tính tổng các phần tử chia 5 dư 2
+    let a = [];
+    let totaL = 0;
+    let c = +prompt('nhap so phan tu cua mang')
+    for (let i = 0; i < c; i++) {
+        let n = +prompt('nhap phan tu mang thu' + (i + 1))
+        a.push(n)
+    }
+    for (let j = 0; j < a.length; j++) {
+        totaL = totaL + a[j]
+    }
+    if (totaL % 5 == 2) {
+        document.write('tong cac phan tu chia cho 5 du 2')
+    }else {
+        document.write('tong cac phan tu khong chia cho 5 du 2')
+    }
+</script>
+</body>
+</html>
